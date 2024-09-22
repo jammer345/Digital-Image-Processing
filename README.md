@@ -28,13 +28,13 @@ You need to create a new branch for your assignments and then push your code to 
 > [!TIP]
 > Make sure to replace "yourname" with your actual name!
 
-> ```
+> ```bash
 >   git checkout -b assignments/yourname
 > ```
 > Example: git checkout -b assignments/syedanwaar
 >
 > ### 3) Check your current branch
-> ```
+> ```bash
 >   git branch
 > ```
 > It will give a result like this:
@@ -58,18 +58,18 @@ You need to create a new branch for your assignments and then push your code to 
 > [!CAUTION]
 > Never push code to the main branch. First check the branch on which you are working.
 
-> ```
+> ```bash
 >   git branch
 > ```
 > It will give you a result just like before, and if you are on some other branch, you can switch to your own branch
-> ```
+> ```bash
 >   git switch assignments/yourname
 > ```
 
 > [!WARNING]
-> On this repository, never switch to any other branch from CLI, It will cause alot of conflicts in your code which migth get you in trouble. If you want to practice, clone this repo in another folder and practice there.
+> On this repository, never switch to any other branch from CLI, It will cause alot of conflicts in your code which might get you in trouble. If you want to practice, clone this repo in another folder and practice there.
 
-> ```
+> ```bash
 >   git add .
 >   git commit -m "Your message for this commit"
 >   git push origin assignments/yourname
