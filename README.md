@@ -57,7 +57,7 @@ You need to create a new branch for your assignments and then push your code to 
 
 > [!CAUTION]
 > Never push code to the main branch. First check the branch on which you are working.
-> 
+
 > ```
 >   git branch
 > ```
