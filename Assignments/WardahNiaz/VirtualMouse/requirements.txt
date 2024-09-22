@@ -1,6 +1,5 @@
+#For this project(AI Virtual Mouse) you need to install the following:
 opencv-python
 mediapipe
-time
-math
 numpy
 autopy
