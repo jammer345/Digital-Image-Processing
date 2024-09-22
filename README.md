@@ -54,6 +54,9 @@ You need to create a new branch for your assignments and then push your code to 
 > ### 5) Push your code
 >
 > After completing your assignment, its time for pushing the code to the remote repository in your own branch.
+> ```
+>   git push origin assignments/yourname
+> ```
 
 > [!CAUTION]
 > Never push code to the main branch. First check the branch on which you are working.
