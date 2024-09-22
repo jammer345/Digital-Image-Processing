@@ -54,12 +54,7 @@ You need to create a new branch for your assignments and then push your code to 
 > ### 5) Push your code
 >
 > After completing your assignment, its time for pushing the code to the remote repository in your own branch.
-> ```
->   git add .
->   git commit -m "Your message for this commit"
->   git push origin assignments/yourname
-> ```
-> 
+
 > [!CAUTION]
 > Never push code to the main branch. First check the branch on which you are working.
 
@@ -72,8 +67,17 @@ You need to create a new branch for your assignments and then push your code to 
 > ```
 
 > [!WARNING]
-> On this repository, never switch to any other branch, It will cause alot of conflicts in your code which migth get you in trouble. If you want to practice, clone this repo in another
-> folder and practice there.
+> On this repository, never switch to any other branch from CLI, It will cause alot of conflicts in your code which migth get you in trouble. If you want to practice, clone this repo in another folder and practice there.
+
+> ```
+>   git add .
+>   git commit -m "Your message for this commit"
+>   git push origin assignments/yourname
+> ```
+
+> [!IMPORTANT]
+> After pushing the code, Github Interface (Website or Desktop) will show you a notification "Compare & pull request". Don't click on that and don't merge your branch with the main branch or any other branch.
+
 
 #  :desktop_computer: :eye:
 
